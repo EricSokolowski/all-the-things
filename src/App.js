@@ -62,13 +62,7 @@ const App = () => {
     },
   ]
 
-  const ericsThings = [
-    {
-      name: 'ballin',
-      image: '',
-      attributes: ['ibeballin']
-    }
-  ]
+
 
   return (
     <Routes>
