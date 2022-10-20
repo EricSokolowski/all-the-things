@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
+import AwesomeThings from './pages/AwesomeThings/AwesomeThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
@@ -61,13 +62,20 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-  const Marcus-Things = [
+
+  const davidVThings = [
     {
-      name: "Taco",
-      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
-      attributes: ["crunchy", "soft", "Yummy"],
+      name: "Manga",
+      attributes: ["awesome", "intertaining", "beautiful"],
     },
   ]
+  const marcusThings = [
+    {
+      name: "tacos",
+      attributes: ["soft", "chesse", "good"],
+    },
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -83,6 +91,10 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route
+        path="/the-awesome-things"
+        element={<AwesomeThings things={davidVThings} />}
       />
     </Routes>
   )
