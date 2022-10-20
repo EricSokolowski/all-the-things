@@ -14,4 +14,4 @@ const MarcusThings = (props) => {
   )
 }
 
-export default SillyThings
+export default MarcusThings
