@@ -4,7 +4,7 @@ import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import AwesomeThings from './pages/AwesomeThings/AwesomeThings'
 import Landing from './pages/Landing/Landing'
-
+import CheesyThings from "src/pages/MarcusThings/MarcusThings.jsx"
 const App = () => {
   const bensThings = [
     {
