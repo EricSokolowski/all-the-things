@@ -69,6 +69,12 @@ const App = () => {
       attributes: ["awesome", "intertaining", "beautiful"],
     },
   ]
+  const marcusThings = [
+    {
+      name: "tacos",
+      attributes: ["soft", "chesse", "good"],
+    },
+  ]
 
   return (
     <Routes>
