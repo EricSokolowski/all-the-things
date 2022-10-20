@@ -5,6 +5,7 @@ import SillyThings from './pages/SillyThings/SIllyThings'
 import AwesomeThings from './pages/AwesomeThings/AwesomeThings'
 import Landing from './pages/Landing/Landing'
 import MarcusThings from './pages/MarcusThings/MarcusThings'
+import EricThings from './pages/EricThings/EricThings'
 
 const App = () => {
   const bensThings = [
@@ -77,6 +78,13 @@ const App = () => {
     },
   ]
 
+  const ericThings = [
+    {
+      name:'swag',
+      attributes: ['uhhh', 'uhhhhhh'],
+    }
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -100,6 +108,10 @@ const App = () => {
       <Route
         path="/the-marcus-things"
         element={<MarcusThings things={marcusThings} />}
+      />
+      <Route
+        path="/the-eric-things"
+        element={<EricThings things={ericThings} />}
       />
     </Routes>
   )
