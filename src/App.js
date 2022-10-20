@@ -4,7 +4,8 @@ import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import AwesomeThings from './pages/AwesomeThings/AwesomeThings'
 import Landing from './pages/Landing/Landing'
-import CheesyThings from "src/pages/MarcusThings/MarcusThings.jsx"
+import MarcusThings from './pages/MarcusThings/MarcusThings'
+
 const App = () => {
   const bensThings = [
     {
@@ -97,8 +98,8 @@ const App = () => {
         element={<AwesomeThings things={davidVThings} />}
       />
       <Route
-        path="/the-cheesy-things"
-        element={<CheesyThings things={marcusThings} />}
+        path="/the-marcus-things"
+        element={<MarcusThings things={marcusThings} />}
       />
     </Routes>
   )
