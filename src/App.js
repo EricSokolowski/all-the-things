@@ -62,6 +62,14 @@ const App = () => {
     },
   ]
 
+  const ericsThings = [
+    {
+      name: 'ballin',
+      image: '',
+      attributes: ['ibeballin']
+    }
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
